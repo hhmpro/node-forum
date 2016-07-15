@@ -1,5 +1,6 @@
 'use strict';
 
 module.exports = function(set, get, has){
-  // console.log('config');
+  // 服务器监听端口
+  set('web.port',3000);
 }
